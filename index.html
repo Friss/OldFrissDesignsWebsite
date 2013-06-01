@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Friss Designs | Dreams.Unlimited</title>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="css/webfonts/ss-social/webfonts/ss-social.css"/>
+        <link rel="stylesheet" href="css/webfonts/ss-pika/webfonts/ss-pika.css"/>
+        <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" href="css/responsive.css">
+         <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+        
+        
+         <script src="js/jquery.flexslider.js"></script>
+
+    </head>
+    <body>
+
+        <section id="0" class="window">
+            <div class="content">
+                    <i class="ss-icon">puzzle</i>
+                    <h1>Friss Designs</h1>
+                    <h2>Dreams.Unlimited</h2>
+            
+                    
+            </div>
+            <a class="down"><img src="images/downarrow.png"></a>
+        </section>
+
+        <section id="1" class="window">
+            
+                
+                <div class="content">
+                    <h2>Profile</h2>
+                <p>I'm a 19 year old web developer working out of Rochester, New York and Mooresville, North Carolina. I have been creating websites since 7th grade after my first introduction to web design and development class. Throughout highschool I acquired a few freelance projects and completed my senior project on web development.</p>
+            
+            <p>After graduating High School in June 2012, I continued working on freelance projects and ideas of my own. In September 2012 I started working towards my Computer Science degree at <a target="_blank" href="http://www.rit.edu/">Rochester Institute of Technology</a> in Rochester, New York. I also started working for <a target="_blank" href="http://www.rit.edu/academicaffairs/etc/">RIT Production Services</a> as a student web developer and currently create and manage current and new RIT Websites.</p>
+            <p>You can check out my resume by visiting <a target="_blank" href="http://frissdesigns.com/resume">http://FrissDesigns.com/resume</a></p>
+        
+
+            
+            </div>
+            <a class="down"><img src="images/downarrow.png"></a><a class="up"><img src="images/uparrow.png"></a>
+        </section>
+
+        <section id="2" class="window">
+            <div class="content">
+                <h2>What I Do</h2>
+              
+                <p>Whether it be simple websites with just HTML &amp; CSS or more complex PHP &amp; JavaScript, I can build it. I build from the ground up with each site's individual design and purpose in mind. I also build my websites in such a way that they are responsive and you can view it on any device. As the internet evolves the websites should too. </p>
+            
+            <p>With years of experience I have used most of the tools in the business. From Adobe Creative Suite to all the latest Microsoft Office programs. I also have experience with different operating system ecosystems. Give me Mac OS X, Windows or a Linux Distro and I'll be comfortable with it. </p>
+       
+
+        
+            </div>
+            <a class="down"><img src="images/downarrow.png"></a><a class="up"><img src="images/uparrow.png"></a>
+        </section>
+
+        <section id="3" class="window">
+            <h2>My Work</h2>
+           <div class="flexslider">
+          <ul class="slides">
+            <li data-thumb="images/cheftroy.jpg">
+                <img src="images/cheftroy.jpg" />
+                <p class="flex-caption">Website for Chef Troy Gagliardo - <a target="_blank" href="http://cheftroy.net">http://cheftroy.net</a></p>
+                </li>
+                <li data-thumb="images/pete.jpg">
+                <img src="images/pete.jpg" />
+                <p class="flex-caption">Website for Peter Traversone - <a target="_blank" href="http://petertraversone.com">http://PeterTraversone.com</a></p>
+                </li>
+                <li data-thumb="images/english.png">
+                <img src="images/english.png" />
+                <p class="flex-caption">RIT Department of English Website - <a target="_blank" href="http://rit.edu/english">http://rit.edu/english</a></p>
+                </li>
+                <li data-thumb="images/share.jpg">
+                <img src="images/share.jpg" />
+                <p class="flex-caption">RIT SHARE 2012 Data - <a target="_blank" href="http://rit.edu/share2012">http://rit.edu/share2012</a> </p>
+                </li>
+                <li data-thumb="images/cms.png">
+                <img src="images/cms.png" />
+                <p class="flex-caption">Custom Content Management System</p>
+                </li>
+                <li data-thumb="images/usprep.jpg">
+                <img src="images/usprep.jpg" />
+                <p class="flex-caption">US Prep Athletes Website</p>
+                </li>
+                <li data-thumb="images/frissdesigns.jpg">
+                <img src="images/frissdesigns.jpg" />
+                </li>
+                <li data-thumb="images/mhs.png">
+                <img src="images/mhs.png" />
+                </li>
+                <li data-thumb="images/snowboarder.jpg">
+                <img src="images/snowboarder.jpg" />
+                </li>
+          </ul>
+          
+        </div>
+        <a class="down"><img src="images/downarrow.png"></a><a class="up"><img src="images/uparrow.png"></a>
+        </section>
+
+        <section id="4" class="window">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>Got a project for me or just want to chat? Send me an Email: <a href="mailto:friss@frissdesigns.com">friss@frissdesigns.com</a> and I'll get back to you as soon as I can.</p>
+            </div>
+           <a class="up"><img src="images/uparrow.png"></a>
+        </section>
+
+       
+
+        <script>
+
+            $(document).ready(function(){
+
+
+$('.down img').animate({
+    opacity: 1,
+    
+  }, 5000, function() {
+    // Animation complete.
+  });
+$('.up img').animate({
+    opacity: 1,
+    
+  }, 5000, function() {
+    // Animation complete.
+  });
+
+
+jQuery.fn.extend({
+  scrollTo : function(speed, easing) {
+    return this.each(function() {
+      var targetOffset = $(this).offset().top;
+      $('html,body').animate({scrollTop: targetOffset}, speed, easing);
+    });
+  }
+});
+
+$('.down').click(function(e){
+    e.preventDefault();
+    var $this = $(this),
+        $next = $this.parent().next();
+    
+    $next.scrollTo(400, 'linear');
+});
+
+$('.up').click(function(e){
+    e.preventDefault();
+    var $this = $(this),
+        $prev = $this.parent().prev();
+
+    $prev.scrollTo(400, 'linear');
+});
+
+
+
+
+                  $('.flexslider').flexslider({
+        animation: "slide",
+        
+        start: function(slider){
+          
+        }
+      });
+               
+
+            });
+        </script>
+
+    </body>
+</html>

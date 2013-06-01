@@ -1,0 +1,377 @@
+@media all and (max-width: 1024px) {
+
+
+.window:nth-child(1) .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -170px;
+}
+
+.window:nth-child(1) .content i {
+  font-size: 4.0em;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+}
+
+.window:nth-child(1) .content h1 {
+  margin: 0;
+}
+
+.window:nth-child(1) .content h2 {
+  
+  color: #88c218;
+}
+
+.window:nth-child(2) .content {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  margin-top: -230px;
+  color:#fff;
+}
+.window:nth-child(2) .content p {
+  width: 63%;
+ 
+  padding-left: 19%; 
+ color:#fff;
+}
+.window:nth-child(2) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#fff;
+}
+
+.window:nth-child(3) .content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  margin-top: -230px;
+  color:#000;
+}
+.window:nth-child(3) .content p {
+  width:50%;
+  color:#000;
+ padding-left:25%;
+  
+}
+.window:nth-child(3) .content a {
+  color:#000;
+}
+
+.window:nth-child(3) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#000;
+}
+.window:nth-child(4) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#000;
+}
+
+.window:nth-child(5) .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -230px;
+}
+
+.window:nth-child(5) .content p {
+  width:50%;
+  color:#fff;
+ padding-left:25%;
+  
+}
+
+.window:nth-child(5) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#fff;
+}
+
+}
+
+ @media all and (max-width: 1024px) and (max-height: 600px) {
+
+.window:nth-child(2) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#fff;
+}
+.window:nth-child(2) .content p {
+  width: 95%;
+ 
+  padding-left: 3%; 
+ color:#fff;
+  font-size: 18px;
+}
+.window:nth-child(2) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#fff;
+}
+
+.window:nth-child(3) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#000;
+}
+.window:nth-child(3) .content p {
+  width: 95%;
+  color:#000;
+ font-size: 18px;
+  padding-left: 3%;
+  
+}
+
+}
+
+@media all and (max-width: 768px) {
+
+  .window:nth-child(2) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#fff;
+}
+.window:nth-child(2) .content p {
+  width: 80%;
+  padding-left: 11%; 
+ color:#fff;
+}
+
+
+.window:nth-child(3) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#000;
+}
+.window:nth-child(3) .content p {
+  width: 80%;
+  color:#000;
+  padding-left: 12%;
+  
+}
+
+}
+
+@media all and (max-width: 600px){
+  .window:nth-child(2) .up, .window:nth-child(2) .down {
+  display:none;
+}
+
+.window:nth-child(3) .up, .window:nth-child(3) .down {
+  display:none;
+}
+.window:nth-child(4) .up, .window:nth-child(4) .down {
+  display:none;
+}
+.window:nth-child(5) .up{
+  display:none;
+}
+    .window:nth-child(2) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#fff;
+}
+.window:nth-child(2) .content p {
+  width: 80%;
+  padding-left: 11%; 
+ color:#fff;
+}
+
+
+.window:nth-child(3) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#000;
+}
+.window:nth-child(3) .content p {
+  width: 80%;
+  color:#000;
+  padding-left: 12%;
+  
+}
+  }
+
+
+  @media all and (max-width: 480px) {
+    .window:nth-child(5) {
+
+top: 1983px;
+}
+.window:nth-child(4) {
+
+top: 1600px;
+}
+.window:nth-child(3) {
+
+top: 1062px;
+height: 539px;
+}
+.window:nth-child(2) {
+
+height: 679px;
+}
+  }
+
+
+  @media all and (max-width: 321px) {
+
+.window:nth-child(1) .down {
+  right:5px;
+  bottom: 5px;
+}
+
+.window:nth-child(1) .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -170px;
+}
+/* line 31, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
+.window:nth-child(1) .content i {
+  font-size: 4.0em;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+}
+.window:nth-child(1) .content h1 {
+  margin: 0;
+  font-size: 70px;
+}
+
+.window:nth-child(1) .content h2 {
+  
+  color: #88c218;
+  font-size: 32px;
+}
+.window:nth-child(2){
+height: 650px;
+}
+
+.window:nth-child(2) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#fff;
+}
+.window:nth-child(2) .content p {
+  width: 92%;
+ 
+  padding-left: 5%; 
+ color:#fff;
+  font-size: 16px;
+}
+.window:nth-child(2) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#fff;
+}
+.window:nth-child(3) {
+  top: 1109px;
+height: 540px;
+}
+
+
+.window:nth-child(3) .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  margin-top: -230px;
+  color:#000;
+}
+.window:nth-child(3) .content p {
+  width: 92%;
+  color:#000;
+ 
+  padding-left: 5%;
+  
+  font-size: 16px;
+}
+.window:nth-child(3) .content a {
+  color:#000;
+}
+
+.window:nth-child(3) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#000;
+}
+.window:nth-child(4){
+    top: 1600px;
+}
+.window:nth-child(4) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#000;
+}
+.window:nth-child(5){
+top: 1983px;
+}
+
+.window:nth-child(5) .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -230px;
+}
+
+.window:nth-child(5) .content p {
+  width: 83%;
+  color:#fff;
+ 
+  padding-left: 10%;
+  
+}
+
+.window:nth-child(5) .content h2 {
+  text-align: center;
+  font-size: 3.0em;
+  color:#fff;
+}
+
+}
+  @media all and (max-width: 321px) and (min-height: 500px) and (max-height: 569px){
+
+   .window:nth-child(2){
+height: 650px;
+}
+
+.window:nth-child(3) {
+  top: 1150px;
+height: 540px;
+}
+
+
+
+.window:nth-child(4){
+top: 335%;
+}
+
+
+.window:nth-child(5){
+top: 435%;
+}
+
+  }
+
+  
+
+ 
