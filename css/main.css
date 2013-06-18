@@ -1,5 +1,5 @@
 @import url("http://hello.myfonts.net/count/25cb92");
-/* FONTS ---------------------------------------------------------- */
+
 @font-face {
   font-family: 'BrandonText-BoldItalic';
   src: url("webfonts/25CB92_0_0.eot");
@@ -18,8 +18,7 @@
   src: url("webfonts/25CB92_2_0.eot?#iefix") format("embedded-opentype"), url("webfonts/25CB92_2_0.woff") format("woff"), url("webfonts/25CB92_2_0.ttf") format("truetype");
 }
 
-/* COLORS ---------------------------------------------------------- */
-/* line 1, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
+
 h1 {
   font-family: BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
   font-size: 6.0em;
@@ -28,7 +27,7 @@ h1 {
   text-shadow: 1px 1px #000;
 }
 
-/* line 7, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
+
 h2 {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
  font-size: 3.0em;
@@ -38,7 +37,7 @@ h2 {
   text-shadow: 1px 1px #000;
 }
 
-/* line 13, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
+
 p {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
   color: #333a3e;
@@ -46,45 +45,45 @@ p {
 }
 
 
-/* line 26, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(1) .content {
+
+#home .content {
   position: absolute;
   top: 50%;
   width: 100%;
   margin-top: -170px;
 }
-/* line 31, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(1) .content i {
+
+#home .content i {
   font-size: 4.0em;
   width: 100%;
   text-align: center;
   display: inline-block;
   color: #fff;
 }
-/* line 38, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(1) .content h1 {
+
+#home .content h1 {
   margin: 0;
 }
-/* line 41, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
-.window:nth-child(1) .content h2 {
+
+#home .content h2 {
   text-align: center;
   color: #88c218;
 }
 
-.window:nth-child(2) .content {
+#profile .content {
   position: absolute;
   top: 45%;
   width: 100%;
   margin-top: -230px;
   color:#fff;
 }
-.window:nth-child(2) .content p {
+#profile .content p {
   width: 94%;
  
   padding-left: 3%; 
  color:#fff;
 }
-.window:nth-child(2) .content h2 {
+#profile .content h2 {
   text-align: center;
   font-size: 3.0em;
   color:#fff;
@@ -92,76 +91,75 @@ p {
 
 
 
-.window:nth-child(3) .content {
+#what .content {
   position: absolute;
   top: 50%;
   width: 100%;
   margin-top: -230px;
   color:#000;
 }
-.window:nth-child(3) .content p {
+#what .content p {
   width:50%;
   color:#000;
  padding-left:25%;
   
 }
-.window:nth-child(3) .content a {
+#what .content a {
   color:#000;
 }
 
-.window:nth-child(3) .content h2 {
+#what .content h2 {
   text-align: center;
   font-size: 3.0em;
   color:#000;
 }
-.window:nth-child(4) .content h2 {
+#work .content h2 {
   text-align: center;
   font-size: 3.0em;
   color:#000;
 }
 
-.window:nth-child(5) .content {
+#contact .content {
   position: absolute;
   top: 50%;
   width: 100%;
   margin-top: -230px;
 }
 
-.window:nth-child(5) .content p {
+#contact .content p {
   width:50%;
   color:#fff;
  padding-left:25%;
   
 }
 
-.window:nth-child(5) .content h2 {
+#contact .content h2 {
   text-align: center;
   font-size: 3.0em;
   color:#fff;
 }
 
-/* CSS Document */
-/* line 4, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 ::selection {
   background-color: #55595c;
   color: #fff;
   text-shadow: 0 1px 0 #000;
 }
 
-/* line 9, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 ::-moz-selection {
   background-color: #55595c;
   color: #fff;
   text-shadow: 0 1px 0 #000;
 }
 
-/* line 38, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 #wrap {
   width: 500px;
   margin: 13% auto 0;
 }
 
-/* line 49, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 #btn-wrap {
   position: relative;
   padding: 5px;
@@ -182,7 +180,7 @@ p {
   box-shadow: 0 1px 0 #37373b;
 }
 
-/* line 69, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 span.title {
   color: #d6d6e7;
   font: 15px/49px BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
@@ -207,13 +205,13 @@ span.title {
   text-align: center;
 }
 
-/* line 93, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 #btn-wrap:hover span.title {
   font-size: 14px;
   width: 135px;
 }
 
-/* line 98, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 #info {
   position: absolute;
   height: 50px;
@@ -232,7 +230,7 @@ span.title {
   z-index: 4;
 }
 
-/* line 116, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 #info p {
   width: 65px;
   margin: 12px 17px 0 0;
@@ -243,7 +241,7 @@ span.title {
   text-align: left;
 }
 
-/* line 126, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 .boxtuffs {
   color: #7c7c84;
   font: 12px Helvetica, Arial, sans-serif;
@@ -254,27 +252,27 @@ span.title {
   -o-transition: all .2s ease-out;
 }
 
-/* line 136, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
+
 .boxtuffs:hover {
   color: #27896a;
 }
 
-/* line 6, ../scss/main.scss */
+
 html, body {
   margin: 0;
   padding: 0;
   overflow-x:hidden;
 }
 
-/* line 11, ../scss/main.scss */
+
 .window {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-/* line 18, ../scss/main.scss */
-.window:nth-child(1) {
+
+#home {
     background: url(2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -285,26 +283,26 @@ html, body {
   top: 0%;
 }
 
-/* line 18, ../scss/main.scss */
-.window:nth-child(2) {
+
+#profile {
   background: #333a3e;
   top: 100%;
 }
 
-/* line 18, ../scss/main.scss */
-.window:nth-child(3) {
+
+#what {
   background:#d5d7dd;
   top: 200%;
 }
 
-/* line 18, ../scss/main.scss */
-.window:nth-child(4) {
+
+#work {
   background: #231f20;
   top: 300%;
 }
 
-/* line 18, ../scss/main.scss */
-.window:nth-child(5) {
+
+#contact {
   background: #d0482b;
   top: 400%;
 }
@@ -334,3 +332,6 @@ a:hover{
 .up img {
   opacity: 0;
 }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }

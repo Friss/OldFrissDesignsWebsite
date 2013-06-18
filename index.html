@@ -2,10 +2,14 @@
 <html>
     <head>
         <title>Friss Designs | Dreams.Unlimited</title>
-
+ <!--[if IE]>
+    <script src="dist/html5shiv.js"></script>
+    <script src="css/webfonts/ss-pika/webfonts/ss-pika.js"></script>
+    <script src="css/webfonts/ss-social/webfonts/ss-social.js"></script>
+  <![endif]-->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-        
+       
         <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
         <link rel="stylesheet" href="css/webfonts/ss-social/webfonts/ss-social.css"/>
         <link rel="stylesheet" href="css/webfonts/ss-pika/webfonts/ss-pika.css"/>
@@ -19,7 +23,7 @@
     </head>
     <body>
 
-        <section id="0" class="window">
+        <div id="home" class="window">
             <div class="content">
                     <i class="ss-icon">puzzle</i>
                     <h1>Friss Designs</h1>
@@ -28,9 +32,9 @@
                     
             </div>
             <a class="down"><img src="images/downarrow.png"></a>
-        </section>
+        </div>
 
-        <section id="1" class="window">
+        <div id="profile" class="window">
             
                 
                 <div class="content">
@@ -44,23 +48,25 @@
             
             </div>
             <a class="down"><img src="images/downarrow.png"></a><a class="up"><img src="images/uparrow.png"></a>
-        </section>
+        </div>
 
-        <section id="2" class="window">
+        <div id="what" class="window">
             <div class="content">
                 <h2>What I Do</h2>
               
                 <p>Whether it be simple websites with just HTML &amp; CSS or more complex PHP &amp; JavaScript, I can build it. I build from the ground up with each site's individual design and purpose in mind. I also build my websites in such a way that they are responsive and you can view it on any device. As the internet evolves the websites should too. </p>
             
             <p>With years of experience I have used most of the tools in the business. From Adobe Creative Suite to all the latest Microsoft Office programs. I also have experience with different operating system ecosystems. Give me Mac OS X, Windows or a Linux Distro and I'll be comfortable with it. </p>
+
+            <p> You can check out some of the things I've done at my GitHub <a target="_blank" href="http://github.com/Friss">Here</a></p>
        
 
         
             </div>
             <a class="down"><img src="images/downarrow.png"></a><a class="up"><img src="images/uparrow.png"></a>
-        </section>
+        </div>
 
-        <section id="3" class="window">
+        <div id="work" class="window">
             <h2>My Work</h2>
            <div class="flexslider">
           <ul class="slides">
@@ -101,15 +107,16 @@
           
         </div>
         <a class="down"><img src="images/downarrow.png"></a><a class="up"><img src="images/uparrow.png"></a>
-        </section>
+        </div>
 
-        <section id="4" class="window">
+        <div id="contact" class="window">
             <div class="content">
                 <h2>Contact Me</h2>
                 <p>Got a project for me or just want to chat? Send me an Email: <a href="mailto:friss@frissdesigns.com">friss@frissdesigns.com</a> and I'll get back to you as soon as I can.</p>
+               
             </div>
            <a class="up"><img src="images/uparrow.png"></a>
-        </section>
+        </div>
 
        
 
@@ -119,13 +126,11 @@
 
 
 $('.down img').animate({
-    opacity: 1,
-    
-  }, 5000, function() {
+    'opacity': '1'}, 5000, function() {
     // Animation complete.
   });
 $('.up img').animate({
-    opacity: 1,
+    'opacity': '1'
     
   }, 5000, function() {
     // Animation complete.
