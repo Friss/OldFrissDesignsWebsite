@@ -1,7 +1,7 @@
 FrissDesignsWebsite
 ===================
 
-My Current Website
+My Old Website
 
 A full functional and almost fully responsive design. (Still working on making it fully responsive. Landscape modes 
 needs a little more time.)
